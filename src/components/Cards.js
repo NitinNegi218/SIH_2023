@@ -5,40 +5,40 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Some INDIAN Medicinal Plants</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              src='images/ashwagandha.jpg'
+              text='This is perhaps best known for its stress-relieving properties'
+              label='Ashwagandha'
               path='/services'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='images/Indian-Gooseberry.png'
+              text='Helps Fight Against the Common Cold'
+              label='Indian Gooseberry'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              src='images/turmeric.jpeg'
+              text='This is rich in vitamin C, an anti-inflammatory and antioxidant'
+              label='Curcuma Longa'
               path='/services'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src='images/neem.jpg'
+              text='It possesses anti-bacterial, anti-cariogenic, anti-helminthic, anti-diabetic, anti-oxidant, astringent, anti-viral, cytotoxic, and anti-inflammatory activity'
+              label='Azadirachta indica'
               path='/products'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src='images/aloe-vera.jpg'
+              text='Aloe vera is a popular medicinal plant with antioxidant and antibacterial properties'
+              label='Aloe Vera'
               path='/sign-up'
             />
           </ul>
